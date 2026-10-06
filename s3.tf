@@ -15,7 +15,7 @@ provider "aws" {
 # S3 bucket names must be globally unique across all AWS accounts.
 # Replace 'unique-bucket-name-student-98765' with your own custom name!
 resource "aws_s3_bucket" "my_bucket" {
-  bucket = "s3bucket-tf1"
+  bucket = "s3bucket-pavan-06-10-2026-github-1"
   force_destroy = true
 
   tags = {
